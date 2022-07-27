@@ -11,11 +11,15 @@ final class Label: UILabel {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        textColor = .red
-        font = .systemFont(ofSize: 24, weight: .bold)
+        setupLabel()
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    private func setupLabel() {
+        textColor = .red
+        font = .systemFont(ofSize: 24, weight: .bold)
     }
 }
