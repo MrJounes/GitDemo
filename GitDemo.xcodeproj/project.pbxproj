@@ -13,6 +13,7 @@
 		57A2D4392891873F0006604D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57A2D4372891873F0006604D /* Main.storyboard */; };
 		57A2D43B289187400006604D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57A2D43A289187400006604D /* Assets.xcassets */; };
 		57A2D43E289187400006604D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57A2D43C289187400006604D /* LaunchScreen.storyboard */; };
+		57A2D44628918B1D0006604D /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A2D44528918B1D0006604D /* Label.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		57A2D43A289187400006604D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57A2D43D289187400006604D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57A2D43F289187400006604D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57A2D44528918B1D0006604D /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				57A2D4312891873F0006604D /* AppDelegate.swift */,
 				57A2D4332891873F0006604D /* SceneDelegate.swift */,
 				57A2D4352891873F0006604D /* ViewController.swift */,
+				57A2D44528918B1D0006604D /* Label.swift */,
 				57A2D4372891873F0006604D /* Main.storyboard */,
 				57A2D43A289187400006604D /* Assets.xcassets */,
 				57A2D43C289187400006604D /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				57A2D4362891873F0006604D /* ViewController.swift in Sources */,
 				57A2D4322891873F0006604D /* AppDelegate.swift in Sources */,
+				57A2D44628918B1D0006604D /* Label.swift in Sources */,
 				57A2D4342891873F0006604D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
